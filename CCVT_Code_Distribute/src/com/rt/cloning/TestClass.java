@@ -10,16 +10,16 @@ public class TestClass {
 		// TODO Auto-generated method stub
 	Department d1=new Department(7, "HR");
 	Employee e1=new Employee(1, "Ram",d1);
-	Employee e2= e1.clone();
+	Employee e2= e1.clone();//uhybnun 
 	
 
 	System.out.println(e1);
 	System.out.println(e2);
 //	e2.setEid(3);
-	e2.setEname("Shyam");
-	e2.getDep().setDid(8);
-	e2.getDep().setDname("Acc");
-	System.out.println(e1);
+	e2.setEname("Shyam"); // it sets the name of the employee e2 to Shyaam
+	e2.getDep().setDid(8); //it sets the department id of the employee e2 to 8
+	e2.getDep().setDname("Acc"); // it sets the department name of the employee e2 to Acc
+	System.out.println(e1); 
 	System.out.println(e2);
 //new Employee().getEid();
 	System.out.println(e1 instanceof Cloneable);
