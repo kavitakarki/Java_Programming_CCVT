@@ -18,7 +18,7 @@ public class TestClass {
 //	e2.setEid(3);
 	e2.setEname("Shyam"); // it sets the name of the employee e2 to Shyaam
 	e2.getDep().setDid(8); //it sets the department id of the employee e2 to 8
-	e2.getDep().setDname("Acc"); // it sets the department name of the employee e2 to Acc
+	e2.getDep().setDname("Acc"); // it sets the department name of the employee e2 to Acco
 	System.out.println(e1); 
 	System.out.println(e2);
 //new Employee().getEid();
